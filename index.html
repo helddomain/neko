@@ -24,13 +24,15 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-content">
-          <div class="logo">
-    <div class="logo-icon">
-        <img src="img/logo.png" alt="Neko Triggerbot Logo" />
-    </div>
-    <span class="logo-text">NEKO TRIGGERBOT</span>
-</div>
-
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="img/logo.png" alt="Neko Triggerbot Logo" />
+                </div>
+                <span class="logo-text">NEKO TRIGGERBOT</span>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#download">Download</a></li>
@@ -224,81 +226,80 @@
     </section>
 
     <!-- FAQ Section -->
-<section id="faq" class="faq">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">
-                Frequently Asked <span class="title-orange">Questions</span>
-            </h2>
-            <p class="section-subtitle">
-                Get answers to the most common questions about Neko Triggerbot
-            </p>
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Frequently Asked <span class="title-orange">Questions</span>
+                </h2>
+                <p class="section-subtitle">
+                    Get answers to the most common questions about Neko Triggerbot
+                </p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Is Neko Triggerbot safe to use?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, Neko Triggerbot uses advanced anti-detection technology designed to keep you safe from Valorant’s Vanguard anti-cheat. Our cheat has been undetected for over 2 years with regular updates to maintain security.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How do I install Neko Triggerbot?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Simply download the installer, run it as administrator, and follow the setup wizard. The installation process takes less than 2 minutes and includes automatic configuration.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Is Neko Triggerbot really free?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, Neko Triggerbot is completely free to download and use. We believe everyone should have access to premium Valorant cheats without paying expensive monthly fees.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>What operating systems are supported?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Neko Triggerbot is compatible with Windows 10 and Windows 11 (64-bit). We recommend using the latest Windows updates for optimal performance.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How often is Neko Triggerbot updated?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We release updates within 24-48 hours after each Valorant game update to ensure compatibility and maintain our undetected status.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Can I customize the cheat settings?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Absolutely! Neko Triggerbot comes with a comprehensive settings menu where you can customize triggerbot delay, activation keys, target priorities, and more.
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="faq-container">
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>Is Neko Triggerbot safe to use?</span>
-                    <i class="fas fa-chevron-down faq-icon"></i>
-                </div>
-                <div class="faq-answer">
-                    Yes, Neko Triggerbot uses advanced anti-detection technology designed to keep you safe from Valorant’s Vanguard anti-cheat. Our cheat has been undetected for over 2 years with regular updates to maintain security.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>How do I install Neko Triggerbot?</span>
-                    <i class="fas fa-chevron-down faq-icon"></i>
-                </div>
-                <div class="faq-answer">
-                    Simply download the installer, run it as administrator, and follow the setup wizard. The installation process takes less than 2 minutes and includes automatic configuration.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>Is Neko Triggerbot really free?</span>
-                    <i class="fas fa-chevron-down faq-icon"></i>
-                </div>
-                <div class="faq-answer">
-                    Yes, Neko Triggerbot is completely free to download and use. We believe everyone should have access to premium Valorant cheats without paying expensive monthly fees.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>What operating systems are supported?</span>
-                    <i class="fas fa-chevron-down faq-icon"></i>
-                </div>
-                <div class="faq-answer">
-                    Neko Triggerbot is compatible with Windows 10 and Windows 11 (64-bit). We recommend using the latest Windows updates for optimal performance.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>How often is Neko Triggerbot updated?</span>
-                    <i class="fas fa-chevron-down faq-icon"></i>
-                </div>
-                <div class="faq-answer">
-                    We release updates within 24-48 hours after each Valorant game update to ensure compatibility and maintain our undetected status.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>Can I customize the cheat settings?</span>
-                    <i class="fas fa-chevron-down faq-icon"></i>
-                </div>
-                <div class="faq-answer">
-                    Absolutely! Neko Triggerbot comes with a comprehensive settings menu where you can customize triggerbot delay, activation keys, target priorities, and more.
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+    </section>
 
     <!-- Download Section -->
     <section id="download" class="download">
@@ -361,12 +362,11 @@
             <div class="footer-grid">
                 <div class="footer-section">
                     <div class="logo" style="margin-bottom: 1rem;">
-    <div class="logo-icon">
-        <img src="img/logo.png" alt="NekoCheats Logo" />
-    </div>
-    <span class="logo-text">NEKOCHEATS</span>
-</div>
-
+                        <div class="logo-icon">
+                            <img src="img/logo.png" alt="NekoCheats Logo" />
+                        </div>
+                        <span class="logo-text">NEKOCHEATS</span>
+                    </div>
                     <p style="color: #9ca3af; font-size: 0.875rem;">
                         The ultimate Valorant cheat for competitive players.
                     </p>
